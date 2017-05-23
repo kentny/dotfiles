@@ -85,7 +85,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
+#export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH="$HOME/.rbenv/shims:$PATH"
 eval "$(rbenv init -)"
 
 # tmux
