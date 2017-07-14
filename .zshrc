@@ -83,11 +83,16 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias cdapp="cd ~/dev/app"
+alias cdweb="cd ~/dev/web-app/"
 
 # rbenv
 #export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="$HOME/.rbenv/shims:$PATH"
 eval "$(rbenv init -)"
+
+# nodebrew
+export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 # tmux
 function is_exists() { type "$1" >/dev/null 2>&1; return $?; }

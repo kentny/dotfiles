@@ -1,7 +1,7 @@
 set nocompatible
 set backspace=indent,eol,start "Backspaceを調整
 set number       "行番号を表示
-set cursorline   "カーソル行の背景色を変える
+"set cursorline   "カーソル行の背景色を変える
 set laststatus=2 "カーソル位置のカラムの背景色を変える
 set whichwrap=b,s,h,l,<,>,[,] "行頭行末の左右移動で行をまたぐ
 
