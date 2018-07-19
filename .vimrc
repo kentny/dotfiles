@@ -8,8 +8,8 @@ set whichwrap=b,s,h,l,<,>,[,] "行頭行末の左右移動で行をまたぐ
 set hlsearch     "検索文字列をハイライトする
 set wrapscan     "最後尾まで検索を終えたら先頭に移る
 
-set shiftwidth=4  "インデント幅
-set tabstop=4     "タブ幅
+set shiftwidth=2  "インデント幅
+set tabstop=2     "タブ幅
 set cindent       "インデントを自動で入れる
 set expandtab     "タブをスペースに変更
 set ruler         "カーソル位置情報を表示
@@ -25,7 +25,7 @@ set tags=./tags;
 "日本語文字化け対策
 set encoding=utf-8
 set fileencoding=utf-8
-set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
+"set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
 set fileformats=unix,dos,mac
 
 
